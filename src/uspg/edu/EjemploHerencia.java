@@ -28,11 +28,22 @@ public class EjemploHerencia {
         
         perro.mostrar();
         
+<<<<<<< HEAD
        Aves m= new Aves ("Paco","Alpiste",8,"Guacamaya");
        
        m.datos();
         
        
+=======
+        
+        mrzavalat mz = new mrzavalat();
+        mz.setNombre("Mario ");
+        mz.setApellido("Zavala ");
+        mz.setFecha_nacimiento("26 de septiembre");
+        mz.saludo();
+        
+        
+>>>>>>> 6b5bbcafba77ee9bb7eb1166f0c9d08ac2506764
     }
     
 }
