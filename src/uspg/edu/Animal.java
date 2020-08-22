@@ -22,6 +22,10 @@ public class Animal {
 
     public Animal(){};
     
+    public Animal(String nombre){
+        
+    }
+    
     
     public String getNombre() {
         return nombre;

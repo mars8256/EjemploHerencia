@@ -28,6 +28,11 @@ public class EjemploHerencia {
         
         perro.mostrar();
         
+       Aves m= new Aves ("Paco","Alpiste",8,"Guacamaya");
+       
+       m.datos();
+        
+       
     }
     
 }
