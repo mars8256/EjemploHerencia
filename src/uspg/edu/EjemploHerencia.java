@@ -5,6 +5,9 @@
  */
 package uspg.edu;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  *
  * @author morozco
@@ -15,7 +18,16 @@ public class EjemploHerencia {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Perro perro = new Perro("Pastor Alemán","fido","concentrado",5);
+        
+//        perro.setNombre("fido");
+//        perro.setEdad(5);
+//        perro.setTipo_alimentacion("concentrado");
+//        perro.setRaza("Pastor Alemán");
+        
+        perro.mostrar();
+        
     }
     
 }
