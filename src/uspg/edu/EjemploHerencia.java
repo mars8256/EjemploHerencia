@@ -54,6 +54,13 @@ public class EjemploHerencia {
         cl.setEdad(15);
         cl.hola();
         
+        Jarvis ja = new Jarvis();
+        ja.setSaludo ("Jarvis");
+        ja.setAmable("Sevir en lo que pueda");
+        ja.setOrigen("Pelicula de Iron Man");
+        ja.setCreado("Jarvis original ya que yo solo soy una idea de lo que puedo ser en la pelicula");
+        ja.presentacion();
+        
         
     }
     
