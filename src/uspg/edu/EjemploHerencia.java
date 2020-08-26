@@ -47,6 +47,14 @@ public class EjemploHerencia {
         PP.setApellido("Sandoval");
         PP.setVivienda("Jerusalen");
         PP.saludos();
+        
+        Caballo cl = new Caballo();
+        cl.setNombre("Tiro al Blanco");
+        cl.setColor("Blanco");
+        cl.setEdad(15);
+        cl.hola();
+        
+        
     }
     
 }
