@@ -34,7 +34,7 @@ public class EjemploHerencia {
        m.datos();
         
        
-
+       
         
         mrzavalat mz = new mrzavalat();
         mz.setNombre("Mario ");
@@ -42,7 +42,11 @@ public class EjemploHerencia {
         mz.setFecha_nacimiento("26 de septiembre");
         mz.saludo();
         
-
+        PracticaParcialBRSC PP = new PracticaParcialBRSC();
+        PP.setNombre ("Bryan");
+        PP.setApellido("Sandoval");
+        PP.setVivienda("Jerusalen");
+        PP.saludos();
     }
     
 }

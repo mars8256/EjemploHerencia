@@ -39,7 +39,7 @@ public class PracticaParcialBRSC {
     }   
    
     public void saludos (){
-        System.out.println("Mi nimbre es: "+ getNombre () + "Mi apellido es: "+ getApellido ());
+        System.out.println("Mi nimbre es: "+ getNombre () + " Mi apellido es: "+ getApellido ());
         System.out.println("Vivo en :" + getVivienda ());
     }
 }

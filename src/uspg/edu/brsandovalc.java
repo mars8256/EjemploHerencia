@@ -32,6 +32,6 @@ public class brsandovalc {
     public void saludo(){
         System.out.println("Mi nombre es: " +getNombre () + ", si logre realizar el jercicio");
         System.out.println("Mi comida favorita es: " +getComida());
-       
+        
     }
 }
